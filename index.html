@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>JohnnyMart | Your Place for Happiness</title>
+  <meta name="description" content="JohnnyMart is a Ponte Vedra Beach shop for designer bags, collectibles, electronics, glassware, clothing, toys, and unique finds.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="topbar">
+  <a class="logo" href="#home"><span>JohnnyMart</span><small>Your Place for Happiness</small></a>
+  <button class="menu" aria-label="Open menu">☰</button>
+  <nav class="nav">
+    <a href="#shop">Shop</a><a href="#categories">Categories</a><a href="#guarantee">Guarantee</a><a href="#about">About</a><a href="#contact">Contact</a>
+  </nav>
+</header>
+<main id="home">
+  <section class="hero">
+    <div class="heroText">
+      <p class="tag">Ponte Vedra Beach, FL</p>
+      <h1>Great finds. Cool stuff. Good vibes.</h1>
+      <p>Designer bags, collectibles, electronics, glassware, clothes, toys, and one-of-a-kind treasures at fair prices.</p>
+      <div><a class="btn" href="#shop">Browse Treasures</a><a class="btn ghost" href="admin.html">Add Inventory</a></div>
+    </div>
+  </section>
+
+  <section class="welcome" id="about">
+    <div>
+      <p class="tag red">Welcome to JohnnyMart</p>
+      <h2>Your Place for Happiness</h2>
+      <p>JohnnyMart is a treasure-hunt shop. Inventory changes often, so customers can always find something new, useful, collectible, or just plain cool.</p>
+    </div>
+    <div class="quickFacts">
+      <article>🏖️<b>Beach-town vibes</b><span>Florida feel, friendly service.</span></article>
+      <article>🛍️<b>Great deals</b><span>Quality finds at fair prices.</span></article>
+      <article>📦<b>New finds</b><span>Fresh inventory added often.</span></article>
+      <article>🙂<b>Happiness</b><span>Good items, good people, good vibes.</span></article>
+    </div>
+  </section>
+
+  <section class="categories" id="categories">
+    <p class="tag red center">Shop by category</p>
+    <h2>Find your next treasure</h2>
+    <div class="categoryButtons" id="categoryButtons"></div>
+  </section>
+
+  <section class="shop" id="shop">
+    <div class="sectionTitle"><div><p class="tag red">Current inventory</p><h2>Available items</h2></div><a class="btn small" href="admin.html">Add Products</a></div>
+    <div id="productGrid" class="productGrid"></div>
+  </section>
+
+  <section class="guarantee" id="guarantee">
+    <div class="guaranteePanel">
+      <p class="tag">The Gorilla Guarantee</p>
+      <h2>We stand behind every item.</h2>
+      <ul><li>Clear descriptions</li><li>Fair prices</li><li>Secure packaging when shipping</li><li>Local, honest service</li><li>5-star experience mindset</li></ul>
+    </div>
+    <div class="reviewPanel">
+      <h2>Like what we do? Leave a review.</h2>
+      <p>Reviews help JohnnyMart grow and help customers shop with confidence.</p>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <p class="tag red center">Contact</p><h2>See something you like?</h2>
+    <p>Message JohnnyMart to ask whether an item is still available, request more pictures, or arrange pickup or shipping.</p>
+    <a class="btn" href="https://www.facebook.com/marketplace/" target="_blank" rel="noreferrer">Facebook Marketplace</a>
+    <a class="btn ghost dark" href="mailto:johnwesleymorton1981@icloud.com">Email JohnnyMart</a>
+  </section>
+</main>
+<footer><b>JohnnyMart</b><span>Your Place for Happiness</span><small>Based in Ponte Vedra Beach, FL</small></footer>
+<script src="products.js"></script><script src="script.js"></script>
+</body>
+</html>
